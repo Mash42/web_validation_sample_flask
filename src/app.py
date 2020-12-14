@@ -1,10 +1,6 @@
 from flask import Flask, render_template, request
-import pymysql
 import requests
 import re
-from flask import Markup
-import MeCab
-from wordcloud import WordCloud
 
 app = Flask(__name__)
 
